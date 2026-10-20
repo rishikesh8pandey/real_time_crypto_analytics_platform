@@ -1,0 +1,9 @@
+# secrets: copy .env.example to .env and keep it out of git
+.env
+
+# virtualenvs, Python caches, Jupyter autosaves
+*_venv/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
